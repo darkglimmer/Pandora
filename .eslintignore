@@ -1,0 +1,7 @@
+/build/
+/config/
+/dist/
+src/cookie.js
+src/main.js
+src/components/*
+src/router/index.js
