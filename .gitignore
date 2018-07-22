@@ -4,6 +4,11 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.editorconfig
+.eslintignore
+.babelrc
+.eslintrc.js
+.postcssrc.js
 
 # Editor directories and files
 .idea
