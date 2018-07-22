@@ -67,7 +67,7 @@
             <div class="aim">个人目标</div>
             <el-progress class="progress" :text-inside="true" :stroke-width="18" :percentage="pstatus" color="#ed7d99"></el-progress>
           </div>
-          <div class="time" prop="time">当前时间：</div>
+          <div class="time" prop="time">当前时间：7-22</div>
         </div>
       </div>
       <el-table :data="tableData" style="width: 100%">
@@ -114,8 +114,8 @@
       return {
         username: "biu",
         score: "1000",
-        sstaus: 0,
-        pstatus: 0,
+        sstaus: 50,
+        pstatus: 80,
         tableData: [{
           importance: 3,
           name: '运动',
@@ -154,7 +154,7 @@
     },
     methods: {
       back() {
-        // this.$router.push("/start")
+        this.$router.push("/")
       },
       quit() {
         this.success = true;
@@ -164,7 +164,7 @@
       },
       choice_quit() {
         //退出登陆
-        //this.$router.push("/start")
+        this.$router.push("/")
       },
       add() {
         this.show = true;
@@ -387,7 +387,7 @@
   }
   
   .id_1 {
-    width: 100%;
+    width: 110%;
     height: 30px;
     border-radius: 5px;
     padding: 0px 20px;
@@ -396,7 +396,7 @@
   }
   
   .id_2 {
-    width: 105%;
+    width: 110%;
     height: 30px;
     border-radius: 5px;
     margin-top: 10px;
