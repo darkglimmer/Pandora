@@ -3,5 +3,5 @@
 /dist/
 src/cookie.js
 src/main.js
-src/components/*
+src/*
 src/router/index.js
